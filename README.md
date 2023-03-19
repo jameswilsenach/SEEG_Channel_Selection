@@ -6,5 +6,5 @@ This function requires MATLAB v2019a or later as well as the implementations of 
 https://www.mathworks.com/matlabcentral/fileexchange/65683-spectral-proper-orthogonal-decomposition-spod
 
 ## Instructions
-In order to run the function you will require an appropriate SEEG file saved as a MATLAB data array with dimensions RxMxT, where R is the number of repeated trials, M is the number of S/EEG channels and T is the length of each trial (recommended to be at least 20s or greater). The current model assumes an energy cutoff of 75%.
+In order to run the function you will require an appropriate SEEG file saved as a MATLAB data array with dimensions RxMxT, where R is the number of repeated trials, M is the number of S/EEG channels and T is the length of each trial (recommended to be at least 20s or greater). The current model assumes an energy cutoff of 75% but this can be changed in options. Increasing the energy threshold will decrease the selectivity of the method.
 
